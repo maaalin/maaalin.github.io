@@ -14,7 +14,8 @@ body {
 
 
 main {
-
+margin-right: 20px;
+margin-left: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 100px minmax(300px, 1fr) auto;
@@ -159,6 +160,7 @@ footer {
 
 @media (max-width: 660px) {
 header {font-size: 25px; margin-top: 20px;}
+  main {margin-left: 0; margin-right: 0;}
 }
 
 @media (max-width: 390px) {
@@ -166,4 +168,5 @@ header {font-size: 25px; margin-top: 20px;}
   nav {margin:0; padding: 0;}
   nav ul li a {padding: 5px;}
   header {display: none;}
+
 }
