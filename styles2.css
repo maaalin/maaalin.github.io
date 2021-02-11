@@ -138,7 +138,7 @@ footer {
 
 #websites {
   grid-area: main;
-  margin-left: 100px;
+
   margin-top: 100px;
 }
 
@@ -147,6 +147,9 @@ footer {
   color: inherit;
   font-family: "Lato", sans-serif;
   transition: color .2s;
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 #websites a:hover, #websites a:focus {
@@ -157,6 +160,21 @@ footer {
   header a {pointer-events: none;}
 } */
 
+
+.pdfs {
+  grid-area: main;
+
+
+}
+
+.pdfs object {
+  width: 100%;
+  max-width: 700px;
+  height: 920px;
+margin: 20px auto;
+
+display: block;
+}
 
 @media (max-width: 660px) {
 header {font-size: 25px; margin-top: 20px;}
