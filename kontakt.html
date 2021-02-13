@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="sv">
 
@@ -8,6 +12,7 @@
     <title>m. bengtsson</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="https://use.typekit.net/sua1qup.css">
+    <link rel="stylesheet" href="kontakt.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/qdo8hob.css">
@@ -16,10 +21,13 @@
     <script src="jquery-3.5.1.min.js"></script>
     <script src="script.js"></script>
     <script src="lightbox.js"></script>
+
 </head>
 
 <body>
   <!-- test -->
+
+
 
 <main>
   <header><a href="index.html"><h1>m. bengtsson</h1> </a> </header>
@@ -32,23 +40,38 @@
     </ul>
   </nav>
 
-  <article class="about">
-<img src="images/me-460px.png" alt="självporträtt" id="portrait">
-    <!-- <img src="images/bw-round.png" alt="self-portrait" id="portrait"> -->
+<div class="kontakt">
+  <h2>Kontakta mig</h2>
 
-    <h2>Välkommen!</h2>
-    <p>Varje GDK:are värd sin titel (och ett godkänt betyg i TNGD46) behöver en portfolio – välkommen till min.
-    Här finns några av mina verk, hela fyra stycken för tillfället. Kika runt, beundra sidans kodning,
-    lägg märke till hur jag lyckats få in Lightbox på backpacking.html, och fundera över hur lång tid det kan ha
-    tagit mig att få script.js att göra som jag ville
-    (svar: väldigt lång tid).
-    </p>
-    <p>Men vem är då jag? Ypperlig fråga. Blanda yoga,
-    <em>Community</em> och kaffe så har du mig i ett nötskal.
-    Kanske lite studier på det också.</p>
-  </article>
+  <div id="kontakt-left"><p>Vill du komma i kontakt med mig? Använd kontaktformuläret eller skicka en röksignal. Brevduvor fungerar också.<p>
+  <div id="socmed"><a href="https://www.instagram.com/thnxforthevenom/" target="_blank"><img src="images/instagram.svg" alt="Instagram">
+</a>
+<a href="https://nouw.com/malinxbengtsson" target="_blank"><img src="images/nouw.svg" alt="Nouw">
+</a>
+</div>
+</div>
 
-  <div id="filler"><h1>so much space to fill, so little to fill it with</h1></div>
+  <form action="https://formspree.io/f/mjvpdkje" method="POST">
+<label>
+  <span class="contact-title"> Namn:</span>
+    <input type="text" name="_name"></label>
+    <label>
+    <span class="contact-title">   Mejladress:</span>
+      <input type="text" name="_replyto">
+    </label>
+    <label>
+    <span class="contact-title">  Meddelande: </span>
+      <textarea name="message"></textarea>
+    </label>
+
+    <!-- your other form fields go here -->
+
+    <button type="submit">skicka</button>
+  </form>
+
+</div>
+
+
 
 
   <footer>
