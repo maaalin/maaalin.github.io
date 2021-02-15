@@ -1,19 +1,13 @@
-
-
-// A $( document ).ready() block.
+//
+//
 // $( document ).ready(function() {
 //     alert( "ready!" );
 // });
 
-$(document).ready(function(){
-    $("#backpacking").hover(function()
-    {
-        $("#backpacking").css("color", "#e9b0b5");
-    }, function()
-    {
-        $("#backpacking").css("color", "black");
-    });
-});
+
+$( "img" ).hide();
+
+
 
 
 
@@ -43,10 +37,3 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
-
-
-
-1
-2
-3
-4

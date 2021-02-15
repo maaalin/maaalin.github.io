@@ -1,3 +1,5 @@
+/* old pink: #e9b0b5
+new pink: #B58A8D */
 
 body {
   width: 100%;
@@ -67,7 +69,7 @@ transition-duration: .4s;
 }
 
 header a:hover, header a:focus {
-  color: #e9b0b5;
+  color: #B58A8D;
 
 }
 
@@ -82,12 +84,13 @@ nav {
 grid-area: nav;
 margin:0;
 padding: 0;
-/* background-color: #e9b0b5; */
+/* background-color: #B58A8D; */
 align-self: flex-start;
 /* height: 70%; */
 z-index: 1000;
 position: fixed;
 margin-top: 5px;
+
 
 
 padding-bottom: 7px;
@@ -136,7 +139,7 @@ padding-bottom: 3px;
 }
 
 ul li a:hover, ul li a:focus {
-    color: #e9b0b5;
+    color: #B58A8D;
 }
 
 
@@ -170,7 +173,7 @@ footer {
 }
 
 .bg-image {
-  background-image: url("images/flowers-bg.png");
+  background-image: url("images/bg-flowers.svg");
   background-size: cover;
 }
 
@@ -220,7 +223,7 @@ justify-self: flex-start;
 }
 
 #websites a:hover, #websites a:focus {
-  color: #e9b0b5;
+  color: #B58A8D;
 }
 
 /* @media (max-width: 1060px) {
@@ -284,7 +287,7 @@ min-width: 300px;
 }
 
 @keyframes colors {
-  0% {color: #e9b0b5;}
+  0% {color: #B58A8D;}
   25% {color: #E8C8BC;}
   50% {color: #D5E8C8;}
   75% {color: #99E8D8;}
@@ -396,5 +399,5 @@ width: 100px;
 }
 
 button:hover {
-  background-color: #e9b0b5;
+  background-color: #B58A8D;
 }
