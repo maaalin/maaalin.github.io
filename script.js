@@ -15,7 +15,7 @@ $(document).ready(function() {
 
 
   $(window).resize(function(){
-    if($(window).width() > 980){
+    if($(window).width() > 1080){
       $("ul").removeAttr('style');
     }
   });
