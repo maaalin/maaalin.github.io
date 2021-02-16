@@ -1,21 +1,9 @@
 
-form {
-  grid-area: main;
-}
-
-label {
-  display: block;
-}
 
 
-@media (max-width: 690px) {
-  #kontakt-left {float:none;
-  margin: auto;}
-  form {float: none;
-  margin: auto;}
+@media (max-width: 1080px) {
 
-  #kontakt-left img, #socmed { margin-top: 0; padding-top: 0px; display: flex;
-    justify-content: flex-end;}
+
 
 }
 /* test */

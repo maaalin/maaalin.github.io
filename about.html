@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles2.css">
-    <link href="lightbox.css" rel="stylesheet" />
+    <meta name=”viewport” content=”width=device-width, initial-scale=1″>
+
     <title>m. bengtsson</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="https://use.typekit.net/sua1qup.css">
@@ -13,9 +13,14 @@
     <link rel="stylesheet" href="https://use.typekit.net/qdo8hob.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <script src="jquery-3.5.1.min.js"></script>
-    <script src="script.js"></script>
-    <script src="lightbox.js"></script>
+
+
+    <link rel="stylesheet" href="css/styles2.css">
+      <link rel="stylesheet" href="css/mobile.css">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/lightbox.js"></script>
+
 </head>
 
 <body class="bg-image">
@@ -24,6 +29,11 @@
 <main>
   <header><a href="index.html"><h1>m. bengtsson</h1> </a> </header>
   <nav >
+
+    <div>
+<img src="images/menu-white-01.svg" alt="menu icon" width="90px">
+
+</div>
     <ul>
       <li><a href="index.html" id="hem">hem</a></li>
       <li><a href="about.html" id="om">om</a></li>
@@ -35,7 +45,7 @@
   <article class="about">
 <img src="images/me-460px.png" alt="självporträtt" id="portrait">
     <!-- <img src="images/bw-round.png" alt="self-portrait" id="portrait"> -->
-
+<div id="about-text">
     <h2>Välkommen!</h2>
     <p>Varje GDK:are värd sin titel (och ett godkänt betyg i TNGD46) behöver en portfolio – välkommen till min.
     Här finns några av mina verk, hela fyra stycken för tillfället. Kika runt, beundra sidans kodning,
@@ -46,6 +56,8 @@
     <p>Men vem är då jag? Ypperlig fråga. Blanda yoga,
     <em>Community</em> och kaffe så har du mig i ett nötskal.
     Kanske lite studier på det också.</p>
+</div>
+
   </article>
 
   <!-- <div id="filler"><h1>so much space to fill, so little to fill it with</h1></div> -->
@@ -55,6 +67,6 @@
   <p>&#169; 2021 Malin Bengtsson | Bild: Annie Spratt på Unsplash</p>
   </footer>
 
-
+<script src="js/script.js"></script>
 </body>
 </html>
