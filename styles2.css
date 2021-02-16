@@ -459,7 +459,7 @@ nav div {
 
 
 
-@media (max-width: 960px) {
+@media (max-width: 1080px) {
   nav div {
     display: block;
   }
