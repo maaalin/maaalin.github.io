@@ -401,3 +401,13 @@ width: 100px;
 button:hover {
   background-color: #B58A8D;
 }
+
+
+@media (max-width: 750px) {
+  ul { margin-left: 0; padding: 0;}
+  nav {margin:0; padding: 0;}
+  nav ul li a {padding: 5px;}
+  header {display: none;}
+  body {background-color: red;}
+
+}
