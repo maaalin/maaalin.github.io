@@ -312,11 +312,12 @@ header {font-size: 25px; margin-top: 20px;}
 
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1080px) {
   ul { margin-left: 0; padding: 0;}
   nav {margin:0; padding: 0;}
   nav ul li a {padding: 5px;}
 
+ 
 
 
 
