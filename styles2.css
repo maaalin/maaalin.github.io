@@ -411,3 +411,7 @@ button:hover {
   body {background-color: red;}
 
 }
+
+@media screen and (orientation: portrait) {
+  body {background-color: aqua}
+}
