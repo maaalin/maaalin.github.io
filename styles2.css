@@ -312,6 +312,47 @@ header {font-size: 25px; margin-top: 20px;}
 
 }
 
+@media (max-width: 960px) {
+  ul { margin-left: 0; padding: 0;}
+  nav {margin:0; padding: 0;}
+  nav ul li a {padding: 5px;}
+
+
+
+
+header a { font-size: 1em;}
+
+  main {
+  margin-right: 20px;
+  margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px minmax(400px, 1fr) auto auto;
+    grid-template-areas:
+    "header "
+
+    "main  "
+    ". "
+    "footer  ";
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+
+    padding-bottom: 80px; /*same as footer height*/
+  }
+
+
+.content{
+  grid-area: main;
+  display: grid;
+   grid-template-columns: 1fr;
+  object-fit: cover;
+
+  grid-gap: 1rem;
+
+}
+
+}
+
 
 
 
@@ -400,4 +441,44 @@ width: 100px;
 
 button:hover {
   background-color: #B58A8D;
+}
+
+
+
+/* menu */
+/* icon */
+nav div {
+  padding: 0.6em;
+  background: #e3e3e3;
+  display: none;
+  cursor: pointer;
+  color: #292929;
+  font-size: 24px;
+}
+
+
+
+
+@media (max-width: 960px) {
+  nav div {
+    display: block;
+  }
+  ul {
+    display: none;
+    position: static;
+    background: #e3e3e3;
+  }
+  ul li {
+    display: block;
+
+  }
+
+}
+
+
+.bar {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }
