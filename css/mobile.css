@@ -48,7 +48,7 @@ nav div {
 ul {
   display: none;
   position: static;
-  background: rgba(165,165,165,.7);
+  background: rgba(165,165,165,1);
   color: white;
 padding: 10px 30px 30px 0.6em;
 
@@ -57,21 +57,25 @@ padding: 10px 30px 30px 0.6em;
 }
 ul li {
   display: block;
-
+padding: 40px;
+font-size: 1.5em
 }
 
-.kontakt {
-height: 100%;
-width: 100%;
-}
 
 /* .kontakt p {
     max-width: 750px;
 } */
 
-textarea {
-  height: 200px;
+.kontakt {
+  font-size: 1.5em;
+  width: 90%;
 }
+
+textarea {
+  height: 300px;
+}
+
+
 input {
 
 display: block;
@@ -116,7 +120,7 @@ margin: auto 10px auto 10px;
   display:block;
 }
 
-#portrait {
+#portrait, #websites {
   margin-right: 20px;
   margin-bottom: 10px;
 float:none;
@@ -130,6 +134,10 @@ width: 100%;
 
 }
 
+
+button:hover, button:active {
+  background: -moz-linear-gradient(top, #e9b0b5 0%,  #B58A8D 100%);
+}
 
 
 } /*end 1080px*/
