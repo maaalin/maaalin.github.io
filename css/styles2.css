@@ -192,10 +192,11 @@ margin-top: 0;
 
 #websites {
   grid-area: main;
-justify-self: flex-start;
+justify-self: center;
   margin-top: 50px;
 
   width: 100%;
+  max-width: 750px;
 
 
 
@@ -417,6 +418,12 @@ justify-content: center;
 input {
 width: 100%;
 box-shadow: 2px 2px 2px grey;
+display: block;
+margin: 0;
+width: 100%; height: 40px;
+line-height: 40px; font-size: 17px;
+border: 1px solid #bbb;
+
 }
 
 
@@ -450,16 +457,26 @@ button {
 
   background-color: white;
 /* border-radius: 8px; */
-transition: background-color .3s;
+transition: background .3s;
 width: 100px;
 
   margin-top: 25px;
   box-shadow: 2px 2px 2px grey;
 
+
+   display: block;
+   margin: 1.5em 0;
+   font-size: 1em; line-height: 2.5em;
+   color: #333;
+   font-weight: bold;
+   height: 2.5em;
+   background: #fdfdfd; background: -moz-linear-gradient(top, #fdfdfd 0%, #bebebe 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#bebebe)); background: -webkit-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -o-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -ms-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: linear-gradient(to bottom, #fdfdfd 0%,#bebebe 100%);
+   border: 1px solid #bbb;
+
 }
 
 button:hover {
-  background-color: #B58A8D;
+  background: -moz-linear-gradient(top, #e9b0b5 0%,  #B58A8D 100%);
 }
 
 
