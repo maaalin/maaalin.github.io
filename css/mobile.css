@@ -120,6 +120,17 @@ margin: auto 10px auto 10px;
   display:block;
 }
 
+#websites {
+  grid-area: main;
+  justify-self: center;
+  width: 60%;
+
+  margin-top: 20px;
+
+  padding: 20px;
+min-width: 300px;
+}
+
 #portrait, #websites {
   margin-right: 20px;
   margin-bottom: 10px;
