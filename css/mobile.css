@@ -113,13 +113,13 @@ border: 1px solid #bbb;
   background-color: #B58A8D;
 }
 
-.about {
+.about, #websites {
 margin: auto 10px auto 10px;
   width: 100%;
 
   display:block;
 }
-
+/*
 #websites {
   grid-area: main;
   justify-self: center;
@@ -129,9 +129,9 @@ margin: auto 10px auto 10px;
 
   padding: 20px;
 min-width: 300px;
-}
+} */
 
-#portrait, #websites {
+#portrait {
   margin-right: 20px;
   margin-bottom: 10px;
 float:none;
@@ -139,7 +139,7 @@ width: 100%;
 
 }
 
-#about-text {
+#about-text, #websites {
   padding: 10px;
 
 

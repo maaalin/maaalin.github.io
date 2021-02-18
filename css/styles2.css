@@ -193,7 +193,7 @@ margin-top: 0;
 #websites {
   grid-area: main;
 justify-self: center;
-  margin-top: 50px;
+  margin-top: 30px;
 
   width: 100%;
   max-width: 750px;
