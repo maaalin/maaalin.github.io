@@ -1,8 +1,24 @@
+
+
+
+
+
+
 $(document).ready(function() {
+
+
+
+
+  $(window).resize(function(){
+    if($(window).width() > 1080){
+      $(".content>a").removeAttr('href');
+    }
+  });
+
 
   //
   $(".button").click(function(){
-    $("nav").slideToggle();
+    $(".menu").slideToggle();
     // $("ul ul").css("display", "none");
   });
 
@@ -11,6 +27,15 @@ $(document).ready(function() {
   //   $(this).find('ul').slideToggle();
   // });
 
+$(".object").hover(function(){
+  $(this).find(".text").fadeIn(200);
+}
+
+, function() {
+  $(".text").fadeOut(200);
+}
+
+);
 
 
   //
