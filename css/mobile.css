@@ -57,7 +57,6 @@ nav {
 position: relative; }
 
 .menu {
-  /* display: none; */
   display: none;
   position: absolute;
   top: 55px;
@@ -129,9 +128,7 @@ font-size: 1.5em
 
 }
 
-.content a {
-  pointer-events: none;
-}
+
 
 
 input {
@@ -235,6 +232,208 @@ button:hover, button:active {
 }
 
 
+#websites img {
+  /* width: 100%; */
+  max-width: 100%;
+
+  filter:blur(3px);
+  display: block;
+}
+
+
+.text {
+  opacity: 1;
+}
+
+
+
+
+figcaption {
+font-size:  1.5em;
+display: block;
+margin-bottom: 20px;
+}
+
+/* eskilstuna stadslopp */
+
+
+.es .tile:nth-child(1){
+    grid-column: span 6;
+grid-row: span 1;
+}
+
+.es .tile:nth-child(2){
+    grid-column: span 6;
+
+}
+
+.es .tile:nth-child(3){
+    grid-column: span 6;
+
+}
+
+.es .tile:nth-child(4){
+    grid-column: span 6;
+
+}
+
+
+
+.es .tile:nth-child(5){
+    grid-column: span 6;
+
+}
+
+.es .tile:nth-child(6){
+    grid-column: span 6;
+
+}
+
+/* green bean */
+
+.gb .tile:nth-child(1){
+    grid-column: span 6;
+grid-row: span 1;
+}
+
+.gb .tile:nth-child(2){
+    grid-column: span 6;
+
+}
+
+.gb .tile:nth-child(3){
+    grid-column: span 6;
+
+}
+
+.gb .tile:nth-child(4){
+    grid-column: span 6;
+
+}
+
+
+
+.gb .tile:nth-child(5){
+    grid-column: span 6;
+
+}
+
+.gb .tile:nth-child(6){
+    grid-column: span 6;
+
+}
+
+
+/* quarantine times */
+
+.qt .tile:nth-child(1){
+    grid-column: span 6;
+
+}
+
+.qt .tile:nth-child(2){
+    grid-column: span 6;
+
+}
+
+.qt .tile:nth-child(3){
+    grid-column: span 6;
+
+}
+
+.qt .tile:nth-child(4){
+    grid-column: span 6;
+
+}
+
+
+
+.qt .tile:nth-child(5){
+    grid-column: span 6;
+
+}
+
+.qt .tile:nth-child(6){
+    grid-column: span 6;
+
+}
+
+/* bmth */
+
+.bmth .tile:nth-child(1){
+    grid-column: span 6;
+
+}
+
+.bmth .tile:nth-child(2){
+    grid-column: span 6;
+
+}
+
+.bmth .tile:nth-child(3){
+    grid-column: span 6;
+
+}
+
+.bmth .tile:nth-child(4){
+    grid-column: span 6;
+
+}
+
+/* start */
+
+.start .tile:nth-child(1){
+    grid-column: span 6;
+grid-row: span 1;
+}
+
+.start .tile:nth-child(2){
+    grid-column: span 6;
+
+}
+
+.start .tile:nth-child(3){
+  grid-column: span 3;
+
+
+}
+
+.start .tile:nth-child(4){
+    grid-column: span 3;
+
+}
+
+
+
+.start .tile:nth-child(5){
+      grid-column: span 6;
+
+}
+
+.start .tile:nth-child(6){
+    grid-column: span 6;
+
+}
+
+.start .tile:nth-child(7){
+    grid-column: span 6;
+
+}
+
+.start .tile:nth-child(8){
+    grid-column: span 6;
+
+}
+
+.start .tile:nth-child(9){
+    grid-column: span 6;
+
+}
+
+
+
+
+
 
 } /*end 1080px*/
 
@@ -298,6 +497,8 @@ margin-right: 0;
 
 
   }
+
+
 
 }
 

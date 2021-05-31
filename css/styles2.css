@@ -280,7 +280,7 @@ width: 100%;
 }
 
 .text {
-display: none;
+opacity: 0;
   position: absolute;
   top: 50%;
  left: 50%;
@@ -302,7 +302,7 @@ font-size: 1.5em;
 
 font-family: 'Bebas Neue', cursive;
 
-
+transition: opacity .2s;
 
 }
 
@@ -313,12 +313,11 @@ font-family: 'Bebas Neue', cursive;
   display: none;
 }
 
-#web-text {
 
-  grid-row: 2;
-  font-style: italic;
+
+#websites .object:hover .text {
+  opacity: 1;
 }
-
 
 #websites img {
   /* width: 100%; */
@@ -337,15 +336,7 @@ font-family: 'Bebas Neue', cursive;
 
 
 
-#websites table {
-  grid-area: main;
-  width: 100%;
-  margin: auto;
-  background: white;
-  border-collapse: separate;
 
-
-}
 
 /* about */
 

@@ -27,15 +27,20 @@ $(document).ready(function() {
   //   $(this).find('ul').slideToggle();
   // });
 
-$(".object").hover(function(){
-  $(this).find(".text").fadeIn(200);
-}
 
-, function() {
-  $(".text").fadeOut(200);
-}
+//text
 
-);
+// $(".object").hover(function(){
+//   $(this).find(".text").fadeIn(200);
+// }
+//
+// , function() {
+//   $(".text").fadeOut(200);
+// }
+//
+// );
+
+// text end
 
 
   //
