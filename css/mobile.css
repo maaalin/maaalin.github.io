@@ -141,9 +141,14 @@ input {
 
 .up {
   right: 60px;
-  bottom: 60px;
+  bottom: 70px;
   font-size: 2em;
-  padding: 15px;
+  padding: 25px;
+}
+
+.upShow {
+  display: none;
+
 }
 
 .kontakt p {
@@ -210,11 +215,15 @@ button:hover, button:active {
   justify-self: flex-start;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr ;
   grid-gap: 1rem;
   align-items: center;
   align-content: center;
   justify-content: center;
+}
+
+.text {
+  font-size: 3em;
 }
 
 
