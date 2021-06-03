@@ -2,7 +2,7 @@
   ul { margin-left: 0; padding: 5px; }
   .button {margin:auto; padding: 0; }
 
-  nav ul li a {padding: 7px; font-size: 50px; background-color: unset;}
+  nav ul li a {padding: 7px; font-size: 50px; background-color: unset; color: black;}
   nav ul li a:active {color: #B58A8D }
 
 
@@ -34,8 +34,8 @@
 
 .button {
   padding: 20px;
-  background: #A5A5A5;
-
+  /* background: #A5A5A5;
+background: white; */
 
   /* display: none; */
   cursor: pointer;
@@ -63,16 +63,17 @@ position: relative; }
 
 }
 
-header { margin-top: -15px; margin-right: 0; color: white; font-size: 3em;}
+header { margin-top: -15px; color: black; font-size: 3em;
+}
 
-header a { font-size: 1.8em;}
+
 
 
 header a {
   pointer-events: none;
 
   display: block;
-  margin-right: 20px;
+
 
 }
 
@@ -94,6 +95,8 @@ transform: scale(1);
 ul li {
   background: rgba(165,165,165,1);
   margin-bottom: 20px;
+  background: white;
+
 }
 
 .menuShow {
