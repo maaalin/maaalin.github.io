@@ -140,7 +140,8 @@ input {
 }
 
 .up {
-  /* display: none; */
+  right: 60px;
+  bottom: 60px;
 }
 
 .kontakt p {
