@@ -142,6 +142,8 @@ input {
 .up {
   right: 60px;
   bottom: 60px;
+  font-size: 2em;
+  padding: 15px;
 }
 
 .kontakt p {
