@@ -338,34 +338,6 @@ transition: opacity .2s;
 
 
 
-/* about */
-
-.about {
-  grid-area: main;
-  justify-self: center;
-  width: 60%;
-  margin-top: 20px;
-  padding: 20px;
-min-width: 300px;
-display: flex;
-}
-#about-text {
-  background-color: rgba(255, 255, 255, .8);
-  padding: 10px;
-  width: 100%;
-}
-.about h2 {
-  margin-top: 0;
-}
-
-#portrait {
-  float: left;
-  margin-right: 10px;
-  width: 50%;
-align-self: flex-start;
-  object-fit: contain;
-}
-
 
 
 
@@ -475,13 +447,13 @@ figcaption {
   font-style: italic;
 }
 
-figcaption a {
+figcaption a, .about a {
   text-decoration: none;
   color: #B58A8D;
   transition: color .2s;
 }
 
-figcaption a:hover, figcaption a:focus {
+figcaption a:hover, figcaption a:focus, .about a:hover, .about a:focus {
     color: #e9b0b5;
 }
 
@@ -734,4 +706,28 @@ grid-row: span 1;
      height: 100%;
      object-fit: contain;
 
+}
+
+/* about */
+.about .tile:nth-child(1){
+    grid-column: 2 / span 2 ;
+
+}
+
+.about .tile:nth-child(2){
+    grid-column: 4/ span 2;
+      background-color: rgba(255, 255, 255, 1);
+}
+
+.about {
+  grid-area: main;
+  display: grid;
+     grid-template-columns: repeat(6, 1fr);
+     grid-gap: 1rem;
+}
+
+.about img {
+  width: 100%;
+     height: 100%;
+     object-fit: contain;
 }
