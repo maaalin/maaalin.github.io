@@ -22,11 +22,16 @@ $(document).ready(function() {
     // $("ul ul").css("display", "none");
   });
 
+
+  $("#submit").click(function() {
+        $("form").each(function(){
+          this.reset();
+        });
+
   // $('ul li').click(function () {
   //   $(this).siblings().find('ul').slideUp();
   //   $(this).find('ul').slideToggle();
   // });
-
 
 //text
 
