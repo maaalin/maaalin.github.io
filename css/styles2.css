@@ -443,6 +443,40 @@ figcaption a:hover, figcaption a:focus, .about a:hover, .about a:focus {
   object-fit: contain;
 }
 
+/* tngd47 */
+.tngd47 {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+}
+
+.tngd47 .tile:nth-child(1){
+  grid-column: span 6;
+}
+
+.tngd47 .tile:nth-child(2){
+  grid-column: span 6;
+}
+
+.tngd47 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 50vh;        /* Viewport-relative units */
+    width: 50vw;
+    max-width: 1366px;
+    margin: auto;
+}
+
+
+
 /* kontakt */
 .kontakt {
   grid-column: 2;
