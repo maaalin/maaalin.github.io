@@ -197,6 +197,10 @@ figcaption {
   margin-bottom: 20px;
 }
 
+iframe {
+  display: none;
+}
+
 /* eskilstuna stadslopp */
 .es .tile:nth-child(1){
   grid-column: span 6;
