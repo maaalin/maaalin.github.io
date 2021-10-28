@@ -176,12 +176,17 @@ footer {
 }
 
 .start .tile:nth-child(8){
-  grid-column: span 3;
+  grid-column: span 2;
 }
 
 .start .tile:nth-child(9){
-  grid-column: span 3;
+  grid-column: span 2;
 }
+
+.start .tile:nth-child(10){
+  grid-column: span 2;
+}
+
 
 .start {
   grid-area: main;
@@ -452,10 +457,14 @@ figcaption a:hover, figcaption a:focus, .about a:hover, .about a:focus {
 }
 
 .tngd47 .tile:nth-child(1){
-  grid-column: span 6;
+  grid-column: span 3;
 }
 
 .tngd47 .tile:nth-child(2){
+  grid-column: span 3;
+}
+
+.tngd47 .tile:nth-child(3){
   grid-column: span 6;
 }
 
@@ -472,7 +481,10 @@ iframe {
     height: 50vh;        /* Viewport-relative units */
     width: 50vw;
     max-width: 1366px;
-    margin: auto;
+    margin-left: 0;
+    margin-top: 50px;
+    margin-bottom: 3
+    0px;
 }
 
 
