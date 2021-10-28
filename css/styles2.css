@@ -187,6 +187,10 @@ footer {
   grid-column: span 2;
 }
 
+.start .tile:nth-child(11){
+  grid-column: span 3;
+}
+
 
 .start {
   grid-area: main;
