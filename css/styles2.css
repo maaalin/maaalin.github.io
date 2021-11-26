@@ -12,6 +12,7 @@ body {
   font-size: 16px;
   min-height: 100vh;
   position: relative;
+
 }
 
 main {
@@ -145,6 +146,8 @@ footer {
   background-repeat: no-repeat;
 }
 
+
+
 /* start */
 .start .tile:nth-child(1){
   grid-column: span 3;
@@ -176,11 +179,11 @@ footer {
 }
 
 .start .tile:nth-child(8){
-  grid-column: span 2;
+  grid-column: span 3;
 }
 
 .start .tile:nth-child(9){
-  grid-column: span 2;
+  grid-column: span 3;
 }
 
 .start .tile:nth-child(10){
@@ -249,7 +252,7 @@ footer {
 }
 
 .text {
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -271,17 +274,18 @@ footer {
 }
 
 #websites .object:hover .text {
-  opacity: 1;
+  opacity: 0;
 }
 
 #websites img {
   max-width: 100%;
   transition: filter .3s;
   display: block;
+    filter:blur(3px);
 }
 
 #websites .object:hover img, #websites .object:focus img {
-  filter:blur(3px);
+  filter:unset;
 }
 
 figcaption {
