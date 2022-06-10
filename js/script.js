@@ -4,6 +4,7 @@
 $(document).ready(function(){
 
 
+
   $(window).resize(function(){
     if($(window).width() > 1080){
       $(".content>a").removeAttr('href');
@@ -11,10 +12,10 @@ $(document).ready(function(){
   });
 
 
-
-  $(".button").click(function(){
-    $(".menu").slideToggle();
-  });
+  // 
+  // $(".button").click(function(){
+  //   $(".menu").slideToggle();
+  // });
 
 
   $("#submit").click(function() {
