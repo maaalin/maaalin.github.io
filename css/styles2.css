@@ -206,8 +206,13 @@ footer {
 }
 
 .start .tile:nth-child(11){
+  grid-column: span 6;
+}
+
+.start .tile:nth-child(12){
   grid-column: span 3;
 }
+
 
 
 .start {
