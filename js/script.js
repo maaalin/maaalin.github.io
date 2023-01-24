@@ -1,5 +1,9 @@
+//copyright i footer
+var paragraph = document.getElementById("year");
+var text = document.createTextNode(" 2023 Malin Bengtsson");
 
-
+paragraph.appendChild(text);
+//slut copyright
 
 $(document).ready(function(){
 
@@ -12,7 +16,7 @@ $(document).ready(function(){
   });
 
 
-  // 
+  //
   // $(".button").click(function(){
   //   $(".menu").slideToggle();
   // });
