@@ -1,11 +1,136 @@
-ESKILSTUNA STADSLOPP
+TEMPLATE
+What:
+Team: IF RELEVANT
+Client:
+Target group:
+Objective:
+Challenges:
 
-Graphic profile, graphic material and website for quarter marathon Eskilstuna Stadslopp 2021.
+<p><span class="emphasis">What: </span></p>
+
+<p><span class="emphasis">Team: </span></p>
+
+<p><span class="emphasis">Client: </span></p>
+
+<p><span class="emphasis">Target group: </span></p>
+
+<p><span class="emphasis">Objective: </span></p>
+
+<p><span class="emphasis">Challenges: </span></p>
+
+
 
 POSTCARD CAMPAIGN
 
 In GRAP2311 Creative Advertising at RMIT, one of the assignments was to develop a postcard campaign based on a brief from an earlier assignment (hence the differing specifications, see response to original brief HERE link). The campaign was to consist of three postcards with a front and back, and to be ready for print. I chose to work with the brief for Spirit of Tasmania.
 
-QUICK BRIEFS
+What: Assignment in GRAP2311 Creative Advertising during my semester at RMIT University
+Client: Spirit of Tasmania
+Target group: Retired and semi-retired holiday makers in Victoria and Tasmania
+Objective: To develop a postcard campaign, more information in the included design brief
+Challenges: Coming up with a creative campaign concept. Attacked this challenge by focusing on the service's main competition, and dramatized the proposition in order to draw attention.
+See the included rationale to learn more about the design process for this project and what influenced it.
 
+QUICK BRIEFS
 One of the assignments in GRAP2311 Creative Advertising at RMIT was to, based on a number of quick briefs, develop advertising concepts for the briefed products. Below are four of my finished scamps and their rationales.
+
+ESKILSTUNA STADSLOPP
+What: Graphic identity for Swedish quarter marathon
+Client: Eskilstuna Stadslopp
+Target group: Runners of all ages
+Objective: To develop a graphic identity that felt fresh, sporty, and would distinguish itself from competitors
+Challenges: Including a bit of Eskilstuna in the logo and finding a visual expression that felt exciting and fun, yet serious
+
+BRANDING
+What: Graphic identities for fictional brands
+Clients: Frames & Frames, a company selling glasses and picture frames; Creative Tub, a creative agency 
+Target group: Young adults for Frames & Frames; SMEs for Creative Tub
+Objective: To develop graphic identities for these brands
+Challenges: Finding a unique expression for each brand. To avoid repeating
+myself and getting out of my comfort zone, moodboards and online colour
+palette tools have played a major roles in handling this challenge.
+
+BMTH
+What: Assignment in TNGD46 Document Production and Publishing at Linköping University
+Team: Worked together with Sofia Krantz. Project didn't include any designated roles.
+Client: Bring Me The Horizon (fictional case)
+Target group: Fans of the band Bring Me The Horizon
+Objective: To code a functional website using HTML, CSS and JavaScript
+Challenges: Two main technical challenges: incorporating a hover effect on the discography page, and making it possible to change
+the colour theme of the website and not have the change reset when the user navigates
+to a different page. We managed to get both of these functions to work through a lot of research (shout-out to Stack Overflow) and
+tons of trial and error.
+See the finished website here.
+
+TALK SHOW
+What: Graphic identity for talk show produced as part of COMM2220 Live Media at RMIT University
+Client: What's Poppin'? (satirical news show)
+Target group: Young adults
+Objective: Part of the assignment was to produce graphics for the talk show. For fun I took it upon myself to
+not only do this, but to develop a graphic identity for the show
+Challenges: Finding a visual expression that could be used in the logo, lower third graphics, over the shoulder graphics, and
+full screen graphics. Attacked the challenge by keeping it simple and focusing on three bold colours, combined
+with a versatile font. Also decided to just have fun with it, as What's Poppin'? is supposed to be a fun show
+
+EDITORIAL DESIGN
+What: Assignment in the course TNGD38 Editorial Design at Linköping University
+Client: Travel magazine <em>På vift</em> (translates to <em>Out and About</em>)
+Target group: People interested in budget-friendly travel
+Objective: To design a magazine ready for print
+Challenges: Making the magazine feel elegant but not expensive, and to figure
+out different page layouts that differ from each but still feel cohesive.
+Regarding the first challenge, I early on decided to keep the
+magazine somewhat minimalistic, and eventually decided to add muted colours
+to make it feel more available (as opposed to exclusive). Regarding the second challenge,
+countless iterations and lots of inspo searching paved the way to the final result.
+
+
+BITS AND PIECES
+What: Collection of various works that didn't quite call for their own page
+Client: Various
+Target group: Also various
+Objective: This and that
+Challenges: So many
+
+QUICK BRIEFS
+What: Assignment for GRAP2311 Creative Advertising at RMIT University
+Client: Chobani; Gorilla Glue; Spriggy; Spirit of Tasmania
+Target group: Various, see rationales
+Objective: To come up with creative ad concepts in response to "quick briefs"
+Challenges: Brainstorming past the predictable ideas. Key to tackling this was lots of sketching,
+in order to get a substantial amount of ideas to choose from. Also spent a lot of
+time brainstorming how to dramatize the proposition, as well as paid
+great attention to the feedback I got from my tutor.
+
+What: Internship at communication agency Identx
+Team: The people at Identx. My role was mainly as a graphic designer
+Client: Various
+Target group: Various
+Objective: Everything from producing infographics to sketching logo ideas. As the internship was part of
+the course TNGD35 at Linköping University, it included creating a poster about the internship.
+Challenges: Adhering to the clients' wishes. Tried to be attentive and remade designs numerous times in order to 
+do this. As for the poster, finding a functional yet fun way to organize the text was the biggest challenge. Changed
+courses midway through when the first one didn't work as planned, see sketches and final poster lower down on this page.
+
+<p><span class="emphasis">What: </span>Internship at communication agency Identx</p>
+
+<p><span class="emphasis">Team: </span>The people at Identx. My role was mainly that of a graphic designer</p>
+
+<p><span class="emphasis">Client: </span>Various</p>
+
+<p><span class="emphasis">Target group: </span>Various</p>
+
+<p><span class="emphasis">Objective: </span>Everything from producing infographics to sketching logo ideas. As the internship was part of
+the course TNGD35 at Linköping University, it included creating a poster about the internship.</p>
+
+<p><span class="emphasis">Challenges: </span>Adhering to the clients' wishes. Tried to be attentive and remade designs numerous times in order to 
+do this. As for the poster, finding a functional yet fun way to organize the text was the biggest challenge. Changed
+courses midway through when the first one didn't work as planned, see sketches and final poster lower down on this page.</p>
+
+What: Bachelor's thesis (design-oriented)
+Target group: Sexually active young adults
+Objective: To explore how visual communication may be used in order to encourage sexually active young adults to get tested for STD's
+Challenges: One of the biggest challenges was figuring out how to communicate about a sensitive and somewhat stigmatized topic in an appealing way. I based my design work off of a frame of reference that dived into sexual health and risk-taking, health communication, cultural aspects and behavioural design, and combined this with a preliminary study that sought to gain an understanding of the target group's relation to and experience with getting tested. This led way to a design process, where multiple rounds of brainstorming followed by evaluations of themes and concepts eventually produced two concepts to be user tested. One of the concepts performed better in the user tests, and was chosen to be finished and developed into a campaign consisting of three ads.
+
+
+
