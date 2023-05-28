@@ -1100,6 +1100,13 @@ display: none;
 
 }
 
+.branding .tile:nth-child(4){
+  grid-column: span 6;
+  grid-row: 4;
+
+}
+
+
 
 
 
