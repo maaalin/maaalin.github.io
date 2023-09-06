@@ -381,7 +381,7 @@ figcaption {
   font-family: "Lato";
   text-transform: lowercase;
   font-style: italic;
-  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 figcaption a, p a {
@@ -462,6 +462,94 @@ figcaption a:hover, figcaption a:focus, .about a:hover, .about a:focus {
   grid-column: span 6;
 
 }
+
+
+/* miles glaspole */
+.glaspole {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+}
+
+
+.glaspole img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.glaspole .tile:nth-child(1){
+  grid-column:  4/7;
+  grid-row: 1;
+  margin-top: 100px;
+}
+
+.glaspole .tile:nth-child(2){
+  grid-column:  1/4;
+  grid-row: 1;
+  margin-top: 100px;
+}
+
+.glaspole .tile:nth-child(3){
+  grid-column:  span 6;
+}
+
+.glaspole .tile:nth-child(n+4){
+  grid-column:  span 3;
+}
+
+.glaspole .tile:nth-child(6){
+  grid-column:  span 6;
+}
+
+.glaspole .tile:nth-child(7){
+  grid-column:  span 6;
+}
+
+.glaspole .tile:nth-child(n+8){
+  grid-column:  span 3;
+}
+
+.glaspole .tile:nth-child(n+12){
+  grid-column:  span 6;
+}
+
+.glaspole-h2 h2 {
+  margin-bottom: 1000px;
+}
+
+/* posters */
+.posters {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+}
+
+
+.posters img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.posters .tile:nth-child(1){
+  grid-column:  span 2;
+  grid-row: 1;
+  margin-top: 100px;
+}
+
+.posters .tile:nth-child(n+2){
+  grid-column:  span 2;
+
+}
+
+
+
+
+
+
 
 /* thesis */
 .thesis-h {
@@ -719,7 +807,7 @@ margin-bottom: 0px;
   object-fit: contain;
 }
 
-#pv, #grap, #branding {
+#pv, #grap, #branding #posters {
   background-color: #e0e0e0;
 }
 
@@ -1115,7 +1203,7 @@ display: none;
   object-fit: contain;
 }
 
-.qb {
+.qb, .glaspole-h2 {
   /* text-transform: uppercase; */
   font-size: 3em;
   margin-left: 2.5rem;
