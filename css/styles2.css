@@ -586,7 +586,7 @@ figcaption a:hover, figcaption a:focus, .about a:hover, .about a:focus {
 
 .thesis .tile:nth-child(3){
   grid-column:  span 6;
-  
+
 }
 
 .thesis .tile:nth-child(4){
@@ -596,7 +596,7 @@ figcaption a:hover, figcaption a:focus, .about a:hover, .about a:focus {
 
 .thesis .tile:nth-child(n+5){
   grid-column:  span 2;
- 
+
 }
 
 .thesis .tile:nth-child(7){
@@ -829,10 +829,10 @@ margin-bottom: 0px;
 
 .praktik .tile:nth-child(n+4){
   grid-column: span 2;
- 
+
 }
 
-/* 
+/*
 .praktik .tile:nth-child(4){
   grid-column: 1/5;
     grid-row: ;
@@ -891,7 +891,7 @@ margin-bottom: 0px;
 
 .proguitar .tile:nth-child(n+3){
   grid-column: span 2;
- 
+
 
 }
 
@@ -1234,6 +1234,12 @@ display: none;
 .branding .tile:nth-child(4){
   grid-column: span 6;
   grid-row: 4;
+
+}
+
+.branding .tile:nth-child(5){
+  grid-column: span 6;
+  grid-row: 5;
 
 }
 
