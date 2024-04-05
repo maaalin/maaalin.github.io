@@ -326,6 +326,8 @@ figure img {
   margin-bottom: 0;
 }
 
+
+
 .es .tile:nth-child(n){
   grid-column: span 6;
   grid-row: span 1;
@@ -333,6 +335,12 @@ figure img {
 }
 
 .thesis .tile:nth-child(n){
+  grid-column: span 6;
+  grid-row: span 1;
+  margin-top: 0;
+}
+
+.snap .tile:nth-child(n){
   grid-column: span 6;
   grid-row: span 1;
   margin-top: 0;
@@ -449,9 +457,10 @@ display: none;
 .tile p {
   /* text-transform: uppercase; */
   font-size: 1em;
-  margin-top:2rem;
+  margin-top:10px;
   margin-bottom: 20px;
 }
+
 
 
 
