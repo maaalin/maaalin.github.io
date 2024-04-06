@@ -199,6 +199,13 @@ nav{
     top:0;
 }
 
+.thesis-h {
+  /* text-transform: uppercase; */
+  font-size: 2em;
+  margin-left: 2.5rem;
+  margin-top:20px;
+
+}
 
 /* kontakt */
 input {
@@ -217,8 +224,12 @@ input {
   font-size: 1.5em;
   width: 100%;
   grid-column: 1;
+
 }
 
+.contact .tile  {
+  margin-bottom: 50px;
+}
 
 
 #wrapper-kontakt {
@@ -290,19 +301,30 @@ button:hover, button:active {
 
 .text {
   font-size: 4em;
-  color: #f0ba1c;
+  /* color: black; */
 
 
 }
 
 .projects img {
   max-width: 100%;
-  filter:blur(3px) brightness(0.5) grayscale(1);
+  filter:blur(5px) brightness(1) grayscale(0);
   display: block;
 }
 
+.projects .object:hover img, .projects .object:focus img {
+  /* filter:unset; */
+  /* filter:blur(3px) brightness(0.4) grayscale(1); */
+  filter:blur(5px) brightness(1) grayscale(0);
+
+}
+
+
+
+
 .text {
   opacity: 1;
+  text-shadow: 3px 3px 8px black;
 }
 
 figcaption {
@@ -344,7 +366,16 @@ figure img {
   grid-column: span 6;
   grid-row: span 1;
   margin-top: 0;
+
 }
+
+.curious .tile:nth-child(n){
+  grid-column: span 6;
+  grid-row: span 1;
+  margin-top: 0;
+
+}
+
 
 
 
@@ -450,15 +481,15 @@ display: none;
 
 .tile h2 {
   /* text-transform: uppercase; */
-  font-size: 2em;
-  margin-bottom: -20px;
+  /* font-size: 2em;
+  margin-bottom: 0; */
 }
 
 .tile p {
   /* text-transform: uppercase; */
-  font-size: 1em;
+  /* font-size: 1em;
   margin-top:10px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; */
 }
 
 
@@ -470,6 +501,7 @@ display: none;
 .about .tile:nth-child(1){
   grid-column:  span 6;
   grid-row: 1;
+
   /* margin-top: 20px;
   margin-bottom: 30px; */
 }
@@ -479,6 +511,7 @@ display: none;
   grid-column: span 6;
   grid-row: span 1;
   margin-bottom: 150px;
+    margin: 20px;
 }
 
 } /*end 1080px*/
