@@ -20,15 +20,30 @@
 }
 
 
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+
+
+}
+
+.playground-links {
+  align-self: center;
+  justify-self: center;
+}
+
+
+
 
     #fuel-calc {
-      grid-column:  2;
+     
       width: 100%;
       max-width: 400px;
       margin: 30px auto 0px auto;
       background-color: pink;
       padding: 20px;
-      grid-area: main;
+      
       border-radius: 15px;
       box-shadow: 15px 15px 0 blue;
 
@@ -58,6 +73,8 @@
       font-size: 1em;
     }
 
+   
+
     input:focus {
       outline: 1px solid blue;
 
@@ -78,8 +95,39 @@ box-shadow: 0 0 5px blue;
       transition: background-color .3s;
     }
 
+    .roundtrip {
+      display: flex;
+      justify-content: flex-start;
+      gap: 1em;
+      align-items: center;
+      flex-direction: row;
+    }
+
+  #roundtrip {
+   display: block;
+   width: 20px;
+   padding: 0;
+
+    }
+
+    #roundtrip:focus {
+      outline: none;
+    }
+
+    #roundtrip-label {
+      font-weight: normal;
+      display: block;
+      padding: 0;
+    }
+
     button:hover {
       background-color: blue;
+    }
+
+    .playground-links a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
     }
 
     .bounce {
@@ -94,6 +142,14 @@ box-shadow: 0 0 5px blue;
     50% { transform:translateY(-4%); }
     51% { transform:translateY(0); }
 }
+
+@media (max-width: 1080px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+}
+
 
 
   </style>
@@ -118,6 +174,7 @@ box-shadow: 0 0 5px blue;
        </ul>
      </nav>
 </header>
+<div class="projects">
   <div id="fuel-calc">
     <h1 class="bounce">Fuel price calculator</h1>
     <div id="distance-div">
@@ -136,13 +193,19 @@ box-shadow: 0 0 5px blue;
       <label for="split">Number of passengers splitting the bill</label>
       <input id="split" type="number"><span> people</span>
     </div>
+    
+   <div class="roundtrip"><input type="checkbox" id="roundtrip"><label for="roundtrip" id="roundtrip-label">Round trip</label></div>
 
     <button id="calc-btn">Calculate</button>
     <button id="reset-btn">Reset</button>
     <div id="output"></div>
 
   </div>
-
+  <div class="playground-links">
+    <button><a href="https://lucky-granita-7158e9.netlify.app/" target="_blank">Drum Machine</a></button>
+    <button><a href="https://dapper-twilight-c0540c.netlify.app/" target="_blank">Random Quote Machine</a></button>
+  </div>
+</div>
 </main>
 
 <footer>

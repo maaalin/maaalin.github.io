@@ -22,6 +22,7 @@ const fuelCalc = document.getElementById("fuel-calc");
 const calcBtn = document.getElementById("calc-btn");
 const output = document.getElementById("output");
 const resetBtn = document.getElementById("reset-btn");
+const roundtrip = document.getElementById("roundtrip");
 
 calcBtn.addEventListener("click", () => {
 
@@ -31,7 +32,14 @@ calcBtn.addEventListener("click", () => {
   distanceVal = Number(distance.value.replace(/[^-0-9.,]/g, ""));
   const consumptionPerKM = consumptionVal / 100;
 
-  output.innerHTML =   `<strong>${((distanceVal * consumptionPerKM * priceVal) / splitVal).toFixed(2)} kr</strong> per person`;
+  if (roundtrip.checked) {
+
+    output.innerHTML =   `<strong>${(((distanceVal * consumptionPerKM * priceVal) / splitVal).toFixed(2)) * 2} kr</strong> per person`;
+  
+  } else {
+    output.innerHTML =   `<strong>${((distanceVal * consumptionPerKM * priceVal) / splitVal).toFixed(2)} kr</strong> per person`;
+  }
+
 
   if (!distanceVal || distanceVal < 0) {
     output.innerText = "Please enter a valid distance"
