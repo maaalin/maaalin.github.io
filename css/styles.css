@@ -17,6 +17,17 @@ purple: B39BE9*/
     background-color: #e0e0e0;
 }
 
+.moved-banner {
+background-color: yellow;
+  width: 100%;
+  font-size: 2em;
+  position: fixed;
+  top: 0;
+  z-index: 100000;
+
+}
+
+
 body {
   width: 100%;
   max-width: 1366px;
